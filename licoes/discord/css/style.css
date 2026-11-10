@@ -711,15 +711,15 @@ a:visited {
 }
 
 .footer.wrapper .content .language select[data-country="en"] {
-  background: url(/img/flag-usa.png);
+  background: url(../imagens/flag-usa.png);
 }
 
 .footer.wrapper .content .language select[data-country="pt"] {
-  background: url(/img/flag-brazil.png);
+  background: url(../imagens/flag-brazil.png);
 }
 
 .footer.wrapper .content .language select[data-country="es"] {
-  background: url(/img/flag-spain.png);
+  background: url(../imagens/flag-spain.png);
 }
 
 .footer.wrapper .content .language select[data-country="pt"],
