@@ -15,7 +15,7 @@ window.onload = function({ target: Document }) {
     css.setAttribute('rel', 'stylesheet');
     css.setAttribute('href', './css/style.css');
     icon.setAttribute('rel', 'icon');
-    icon.setAttribute('href', './img/favico.ico');
+    icon.setAttribute('href', './imagens/favico.ico');
     head.appendChild(css);
     head.appendChild(icon);
 
