@@ -32,6 +32,7 @@ estudos-full-stack-web/
 ├── html5/
 │   └── index.html
 ├── licoes/
+│   ├── discord/ (exercício de reprodução de página)
 │   ├── cabecalhos.html
 │   ├── caracteres-especiais.html
 │   ├── colocando-video.html
@@ -77,6 +78,17 @@ As pastas **[`midias/imagens/`](midias/imagens/)** e **[`midias/videos/`](midias
 - [Abrir exercício de links](licoes/links-e-ancoras.html)
 
 **Observação:** o arquivo original `licoes/elementos-de-imagem.html` foi mantido como anotação de estudo; o novo `exemplo-imagens.html` demonstra o uso prático de `img`, `figure`, `figcaption` e `alt`. Os vídeos permanecem separados por arquivo para facilitar a organização. Dois arquivos de 1 byte servem como marcadores de pasta e não são mídias reais. O uso de `processa.html` é didático e não significa que exista um back-end funcional.
+
+## 💬 Projeto de estudo — réplica de página do Discord
+
+Novo exercício de estruturação de uma página inspirada no Discord, com foco na organização de **HTML, seções, cabeçalhos, imagens, links e listas**.
+
+- [Abrir o HTML do exercício](licoes/discord/index.html)
+- [Ler documentação e créditos do material da aula](licoes/discord/README.md)
+
+O material de aula inclui CSS, JavaScript, imagens e arquivos auxiliares de terceiros. Esses recursos são **referências do curso**, não evidência de que os estudos de CSS/JS já foram concluídos. **Alguns recursos da pasta ainda precisam ser enviados**, de modo que a reprodução visual no GitHub pode estar incompleta por enquanto.
+
+---
 
 ## 🚀 Como executar
 
