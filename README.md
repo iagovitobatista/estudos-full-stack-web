@@ -32,7 +32,7 @@ estudos-full-stack-web/
 ├── html5/
 │   └── index.html
 ├── licoes/
-│   ├── discord/ (exercício de reprodução de página)
+│   ├── discord/ (HTML, css/, java/, imagens/ e fonts/ da aula)
 │   ├── cabecalhos.html
 │   ├── caracteres-especiais.html
 │   ├── colocando-video.html
@@ -86,7 +86,7 @@ Novo exercício de estruturação de uma página inspirada no Discord, com foco 
 - [Abrir o HTML do exercício](licoes/discord/index.html)
 - [Ler documentação e créditos do material da aula](licoes/discord/README.md)
 
-O material de aula inclui CSS, JavaScript, imagens e arquivos auxiliares de terceiros. Esses recursos são **referências do curso**, não evidência de que os estudos de CSS/JS já foram concluídos. **Alguns recursos da pasta ainda precisam ser enviados**, de modo que a reprodução visual no GitHub pode estar incompleta por enquanto.
+**Materiais complementares publicados:** pastas `css/`, `java/`, `imagens/` e `fonts/`, com os arquivos de apoio da aula. Ajustei os caminhos de mídia do HTML e referências internas do CSS/JavaScript para a organização enviada. O HTML ainda usa o script externo `@codans/discord`, e a renderização visual não foi testada no navegador nesta atualização. **Esses recursos são materiais do curso**, não evidência de que os estudos de CSS/JS já foram concluídos. Verifique as licenças das fontes antes de redistribuí-las.
 
 ---
 
