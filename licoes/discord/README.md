@@ -9,19 +9,38 @@ Esta pasta reúne um exercício de reprodução da estrutura de uma página insp
 - Organização de seções: navegação, destaque, conteúdo e rodapé;
 - Uso de caminhos relativos, como `img/logo.svg`.
 
-## Organização dos arquivos
+## Organização verificada no GitHub
 
-| Pasta ou arquivo | Finalidade |
-| --- | --- |
-| `index.html` | Página HTML do exercício |
-| `textos.html` | Textos de apoio usados na aula |
-| `css/` | Estilos fornecidos nos materiais de apoio |
-| `js/` | Script de apoio usado no material da aula |
-| `img/` | Elementos visuais e ícones usados no exercício |
+```text
+licoes/discord/
+├── index.html
+├── README.md
+├── css/
+│   ├── style.css
+│   ├── font.ginto.css
+│   └── font.whitney.css
+├── imagens/
+│   ├── logo.svg
+│   ├── grupo-estudo.svg
+│   ├── canal-voz.svg
+│   ├── membros.svg
+│   ├── relaxando.svg
+│   └── demais ícones e recursos visuais
+├── java/
+│   └── stylesheet.js
+└── fonts/
+    └── arquivos de fontes utilizados pelo material da aula
+```
 
-**Importante:** o arquivo HTML usa uma dependência externa de `https://unpkg.com/@codans/discord`. Os arquivos originais do pacote são vinculados ao material didático e não representam implementação autoral de CSS ou JavaScript. A aprendizagem atual concentra-se na escrita e organização do HTML.
+Os nomes **`imagens/`** e **`java/`** foram escolhidos ao enviar o material e estão preservados. O HTML tinha referências a `img/`, mas os arquivos estavam em `imagens/`: esses caminhos foram corrigidos. Também foram ajustados caminhos dentro dos arquivos de apoio CSS e JavaScript.
 
-Os arquivos de mídia e os demais itens do pacote estão organizados em um ZIP separado para serem enviados ao GitHub. As fontes de terceiros foram excluídas do pacote organizado, portanto algumas diferenças visuais são esperadas se o projeto for executado sem as dependências originais.
+### Dependências e execução
+
+O `index.html` carrega o script externo `https://unpkg.com/@codans/discord`, portanto a reprodução da estilização depende de uma conexão e da disponibilidade desse recurso de terceiros. Há também um script local em `java/stylesheet.js` (material fornecido), que está guardado para estudo; **não foi adicionado automaticamente ao HTML**, para não misturar duas formas de inicialização. A presença dos arquivos de apoio **não representa domínio de CSS ou JavaScript** nesta etapa.
+
+Para estudar, abra `index.html` no navegador (de preferência com Live Server no VS Code). **O resultado visual final ainda não foi validado em navegador nesta atualização.**
+
+> Foram identificados arquivos auxiliares de 1 byte e um `.DS_Store` legado, que não são necessários para o exercício. Permanecem no repositório até uma limpeza específica. Um `bg-cloud.svg` vazio também merece revisão. Fontes e outros recursos obtidos no material da aula podem ter restrições de redistribuição: confirme a licença antes de manter esses binários em um repositório público.
 
 ## Fonte e atribuição
 
