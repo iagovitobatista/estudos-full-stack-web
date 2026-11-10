@@ -36,6 +36,7 @@ estudos-full-stack-web/
 │   ├── caracteres-especiais.html
 │   ├── colocando-video.html
 │   ├── elementos-de-imagem.html
+│   ├── exemplo-imagens.html
 │   ├── formatacao-texto.html
 │   ├── formulario2.html
 │   ├── formularios.html
@@ -46,6 +47,9 @@ estudos-full-stack-web/
 │   ├── paragrafo.html
 │   ├── processa.html
 │   └── tabelas.html
+├── midias/
+│   ├── imagens/ (2 imagens de estudo)
+│   └── videos/  (3 vídeos de estudo)
 └── .gitignore
 ```
 
@@ -60,10 +64,19 @@ estudos-full-stack-web/
 | Formulários | [`licoes/formulario2.html`](licoes/formulario2.html) |
 | Página temática | [`licoes/licao-site.html`](licoes/licao-site.html) |
 | Vídeos | [`licoes/colocando-video.html`](licoes/colocando-video.html) |
+| Imagens e legendas | [`licoes/exemplo-imagens.html`](licoes/exemplo-imagens.html) |
 
 **Arquivos preservados:** os nomes originais foram adaptados para caminhos simples, mas o conteúdo foi mantido como material de estudo, sem uma refatoração geral ou correções silenciosas.
 
-**Mídias:** o ZIP original contém duas imagens e três vídeos de apoio, além de pastas e estilos ainda vazios. Nesta primeira publicação, os vídeos e as imagens grandes **não foram enviados**: por isso os exercícios que os referenciam podem apresentar mídia ausente no GitHub até uma etapa posterior. O uso de `processa.html` é didático e não significa que exista um back-end funcional.
+### 🖼️ Mídias dos exercícios — adicionadas ao GitHub
+
+As pastas **[`midias/imagens/`](midias/imagens/)** e **[`midias/videos/`](midias/videos/)** já estão disponíveis com **2 imagens e 3 vídeos** usados nas aulas. Os exemplos apontam para os arquivos reais utilizando caminhos relativos (`../midias/...`).
+
+- [Abrir exercício funcional de imagens e legendas](licoes/exemplo-imagens.html)
+- [Abrir exercício de vídeos](licoes/colocando-video.html)
+- [Abrir exercício de links](licoes/links-e-ancoras.html)
+
+**Observação:** o arquivo original `licoes/elementos-de-imagem.html` foi mantido como anotação de estudo; o novo `exemplo-imagens.html` demonstra o uso prático de `img`, `figure`, `figcaption` e `alt`. Os vídeos permanecem separados por arquivo para facilitar a organização. Dois arquivos de 1 byte servem como marcadores de pasta e não são mídias reais. O uso de `processa.html` é didático e não significa que exista um back-end funcional.
 
 ## 🚀 Como executar
 
