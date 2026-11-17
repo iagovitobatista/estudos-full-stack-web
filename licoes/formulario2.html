@@ -1,90 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulários — Controles e agrupamentos</title>
 </head>
-
 <body>
-
-    <h1>Mais sobre o formulario</h1>
-
-    <form action="processa.html" method="get">
-
-        <!--
-        Label = legenda para item da interface
-        for = associa o label ao id do input
-        -->
-
-        <label>name</label>
-        <input type="text" name="nome" id="name">
-
-        <!-- Forma correta de se fazer -->
-
-        <label for="EMAILS">EMAILS</label>
-        <input type="text" name="EMAIL" id="EMAILS">
-        <br>
-
-        Gênero <br>
-
-        <input type="radio" name="genero" value="femenino">Femenino
-        <input type="radio" name="genero" value="masculino">masculino
-
-        <input type="submit" value="cadastrar">
-
-        <br><br>
-
-        Estilo musical <br>
-
-        <input type="checkbox" name="estilo" value="rock">rock
-        <input type="checkbox" name="estilo" value="pop">pop
-        <input type="checkbox" name="estilo" value="sertanejo">sertanejo
-
-        <br><br>
-
-        Estado:
-
-        <select name="estado">
-            <option value="">Selecione</option>
-            <option value="sp">SÃO PAULO</option>
-            <option value="rj">RIO DE JANEIRO</option>
-            <option value="mg">MINAS GERAIS</option>
-            <option value="ce">CEARA</option>
-        </select>
-
-        <br><br>
-
-        Upload de arquivos:
-        <input type="file" name="arquivos">
-
-    </form>
-
-    <!--
-    Fieldset & legend
-    fieldset = conjunto de campos
-    legend = legenda para conjunto de campos
-    -->
-
-    <form>
-
-        <fieldset>
-            <legend>dados pessoais</legend>
-
-            <label>name</label>
-            <input type="text" name="nome" id="name">
-
-            <!-- Forma correta de se fazer -->
-
-            <label for="EMAILS-dados">EMAILS</label>
-            <input type="text" name="EMAIL" id="EMAILS-dados">
-            <br>
-
-        </fieldset>
-
-    </form>
-
+  <h1>Mais sobre formulários</h1>
+  <form action="processa.html" method="get">
+    <p><label for="nome">Nome:</label> <input type="text" name="nome" id="nome"></p>
+    <p><label for="email">E-mail:</label> <input type="email" name="email" id="email"></p>
+    <fieldset>
+      <legend>Gênero</legend>
+      <label><input type="radio" name="genero" value="feminino"> Feminino</label>
+      <label><input type="radio" name="genero" value="masculino"> Masculino</label>
+      <label><input type="radio" name="genero" value="outro"> Outro</label>
+    </fieldset>
+    <fieldset>
+      <legend>Estilo musical</legend>
+      <label><input type="checkbox" name="estilo" value="rock"> Rock</label>
+      <label><input type="checkbox" name="estilo" value="pop"> Pop</label>
+      <label><input type="checkbox" name="estilo" value="sertanejo"> Sertanejo</label>
+    </fieldset>
+    <p>
+      <label for="estado">Estado:</label>
+      <select id="estado" name="estado">
+        <option value="">Selecione</option>
+        <option value="sp">São Paulo</option>
+        <option value="rj">Rio de Janeiro</option>
+        <option value="mg">Minas Gerais</option>
+        <option value="ce">Ceará</option>
+      </select>
+    </p>
+    <p><label for="arquivo">Arquivo:</label> <input type="file" id="arquivo" name="arquivo"></p>
+    <button type="submit">Cadastrar</button>
+  </form>
+  <h2>Exemplo de fieldset e legend</h2>
+  <form action="processa.html" method="get">
+    <fieldset>
+      <legend>Dados pessoais</legend>
+      <p><label for="nome2">Nome:</label> <input type="text" name="nome" id="nome2"></p>
+      <p><label for="email2">E-mail:</label> <input type="email" name="email" id="email2"></p>
+    </fieldset>
+    <button type="submit">Enviar exemplo</button>
+  </form>
 </body>
-
 </html>
