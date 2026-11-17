@@ -1,6 +1,7 @@
 # 💻 Estudos Full Stack Web — Diário de Aprendizagem
 
 ![HTML5](https://img.shields.io/badge/HTML5-Em%20estudo-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-Primeiros%20exerc%C3%ADcios-1572B6?style=for-the-badge&logo=css&logoColor=white)
 ![VS Code](https://img.shields.io/badge/Editor-VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Em%20evolu%C3%A7%C3%A3o-6f42c1?style=for-the-badge)
 
@@ -10,7 +11,7 @@ Este espaço registra minha evolução nos estudos de **desenvolvimento Web e Fu
 
 O objetivo é **aprender praticando, preservar a evolução e documentar os conhecimentos**. Os arquivos iniciais foram mantidos como exercícios de estudo, inclusive com pontos a corrigir, para comparar versões à medida que avanço no curso.
 
-> **Etapa atual: HTML básico.** CSS, JavaScript, Node.js, TypeScript, back-end e automações com n8n fazem parte dos **próximos estudos** e não devem ser interpretados como tecnologias já implementadas neste projeto.
+> **Etapa atual: HTML e início de CSS3.** Já foram publicados exercícios de seletores, cores, fontes, bordas, margens, padding e modelo de caixa. JavaScript, Node.js, TypeScript, back-end e n8n ainda são **próximos estudos** neste repositório.
 
 ## 🧩 O que já estudei
 
@@ -22,7 +23,8 @@ O objetivo é **aprender praticando, preservar a evolução e documentar os conh
 - Links, âncoras e caminhos relativos;
 - Inclusão de imagens e vídeos;
 - Formulários: `input`, `label`, `radio`, `checkbox`, `select`, `textarea` e `fieldset`;
-- Pequenas páginas para praticar organização e hierarquia do conteúdo.
+- Pequenas páginas para praticar organização e hierarquia do conteúdo;
+- **Início de CSS3:** seletores, classes e IDs, estilos inline/internos/externos, cores, fontes, bordas, margin, padding e box model.
 
 ## 📁 Organização
 
@@ -51,6 +53,8 @@ estudos-full-stack-web/
 ├── midias/
 │   ├── imagens/ (2 imagens de estudo)
 │   └── videos/  (3 vídeos de estudo)
+├── projeto-2/
+│   └── css3/ (14 páginas de exercício, CSS e README)
 └── .gitignore
 ```
 
@@ -67,7 +71,7 @@ estudos-full-stack-web/
 | Vídeos | [`licoes/colocando-video.html`](licoes/colocando-video.html) |
 | Imagens e legendas | [`licoes/exemplo-imagens.html`](licoes/exemplo-imagens.html) |
 
-**Arquivos preservados:** os nomes originais foram adaptados para caminhos simples, mas o conteúdo foi mantido como material de estudo, sem uma refatoração geral ou correções silenciosas.
+**Revisão de HTML:** os exercícios iniciais passaram por correções de sintaxe e semântica, incluindo `DOCTYPE`, `head`, `body`, fechamento de elementos, tabelas, formulários, rótulos acessíveis e textos alternativos. O primeiro `html5/index.html` foi reescrito e o texto de teste antigo foi removido. O histórico dessas mudanças permanece nos commits do GitHub.
 
 ### 🖼️ Mídias dos exercícios — adicionadas ao GitHub
 
@@ -90,6 +94,23 @@ Novo exercício de estruturação de uma página inspirada no Discord, com foco 
 
 ---
 
+## 🎨 Nova etapa — CSS3 e páginas de estudo
+
+A partir do novo conjunto de exercícios enviado pelo VS Code, iniciei uma seção separada para **HTML + CSS3**, com os temas: classes, IDs, cores, fontes, bordas, margens, padding, box model e estilos externos.
+
+- **[Ver a documentação dos estudos CSS3](projeto-2/css3/README.md)**
+- [Exemplo de modelo de caixa](projeto-2/css3/modelo-caixa.html)
+- [Exemplo de bordas](projeto-2/css3/bordas.html)
+- [Exemplo de classes e IDs](projeto-2/css3/class-id-exercicio.html)
+- [Exemplo de margin e padding](projeto-2/css3/margin-padding.html)
+- [Exercícios inspirados em páginas de lojas](projeto-2/css3/index-americanas.html)
+
+**Mídias pendentes:** o ZIP da aula também contém 17 imagens para os exemplos de comércio eletrônico e Fórmula 1. Elas ainda precisam ser enviadas para `projeto-2/css3/img/` para que as páginas com imagens carreguem corretamente. Foram publicadas versões HTML revisadas dos exercícios, e não cópias byte a byte dos arquivos originais.
+
+As páginas inspiradas em marcas são reproduções exclusivamente educacionais, sem vínculo com as empresas.
+
+---
+
 ## 🚀 Como executar
 
 1. Clone ou baixe o repositório.
@@ -101,14 +122,15 @@ Novo exercício de estruturação de uma página inspirada no Discord, com foco 
 
 ## 📝 Aprendizados e melhorias identificadas
 
-Alguns exercícios ainda apresentam erros de sintaxe ou estrutura (por exemplo, fechamento de elementos, associação entre `label` e `input` e caminhos de arquivos). Isso é parte do histórico de aprendizagem e será trabalhado em novas revisões, com explicações das alterações.
+Os principais problemas estruturais encontrados nos exercícios iniciais foram corrigidos nesta revisão: fechamento de tags, hierarquia de títulos, estrutura de documentos, tabelas e associação entre `label` e `input`. Ainda podemos revisar detalhes de acessibilidade, interatividade e apresentação visual conforme os estudos avançarem.
 
 Nos exemplos de formulários, `GET` envia parâmetros na URL e **não deve ser usado para credenciais**. `POST` não garante sigilo sozinho: proteção de dados exige HTTPS e um servidor adequadamente configurado.
 
 ## 🗺️ Próximos passos
 
-- [ ] Revisar os exercícios HTML e aplicar HTML semântico
-- [ ] Iniciar CSS e responsividade
+- [x] Revisar a estrutura dos exercícios HTML iniciais
+- [x] Iniciar CSS: seletores, cores, bordas, margin e padding
+- [ ] Evoluir no CSS e estudar responsividade
 - [ ] Avançar para JavaScript e DOM
 - [ ] Estudar Node.js e TypeScript
 - [ ] Explorar integrações e automações com n8n
