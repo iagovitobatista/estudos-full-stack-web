@@ -1,0 +1,8 @@
+/* Exercícios de CSS externo: seletores e propriedades básicas */
+h2 { color: blue; }
+a { color: darkgreen; }
+p { color: indianred; }
+li { background-color: lightblue; border: 1px solid blue; }
+table { background-color: orange; border: 5px solid darkred; border-collapse: collapse; }
+td, th { border: 2px solid black; padding: 6px; }
+img { max-width: 100%; height: auto; }
