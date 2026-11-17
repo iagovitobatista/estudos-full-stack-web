@@ -105,7 +105,7 @@ A partir do novo conjunto de exercícios enviado pelo VS Code, iniciei uma seç�
 - [Exemplo de margin e padding](projeto-2/css3/margin-padding.html)
 - [Exercícios inspirados em páginas de lojas](projeto-2/css3/index-americanas.html)
 
-**Mídias pendentes:** o ZIP da aula também contém 17 imagens para os exemplos de comércio eletrônico e Fórmula 1. Elas ainda precisam ser enviadas para `projeto-2/css3/img/` para que as páginas com imagens carreguem corretamente. Foram publicadas versões HTML revisadas dos exercícios, e não cópias byte a byte dos arquivos originais.
+**Mídias publicadas:** as 17 imagens da aula estão agora na pasta [`projeto-2/css3/img/`](projeto-2/css3/img/). Foram verificados e ajustados os caminhos das imagens, incluindo `Banner.png` com B maiúsculo. Os exemplos HTML são versões revisadas dos exercícios originais. A renderização final ainda deve ser conferida no navegador.
 
 As páginas inspiradas em marcas são reproduções exclusivamente educacionais, sem vínculo com as empresas.
 
