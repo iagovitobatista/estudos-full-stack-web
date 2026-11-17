@@ -1,32 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabelas HTML</title>
 </head>
 <body>
-   <!--Para criar tabelas as tags utilizadas são 
-   tr -- table row(linha da tabeka)
-   td -- table data(dados da tabela *
-   table cell(celulas da tablea )
-   th-- table header(cabeçalho da tablea )
- 
-   -->
-   <table border="1">    
-    <tr>
-        <td>conteudo </td>
-        <td>produto </td>
-        <td>loja </td>
-        <td>cidade </td>
-        <td>bairro </td>
-    </tr>
-    <tr>
-<td>segundo conteudo aqui</td>
-
-    </tr>
-   </table>
-   
-   
+  <h1>Exercício de tabelas</h1>
+  <!-- table: tabela; tr: linha; th: cabeçalho; td: célula -->
+  <table border="1">
+    <caption>Exemplo de cadastro de produtos</caption>
+    <thead><tr><th scope="col">Produto</th><th scope="col">Loja</th><th scope="col">Cidade</th><th scope="col">Bairro</th></tr></thead>
+    <tbody>
+      <tr><td>Produto 1</td><td>Loja A</td><td>São Paulo</td><td>Centro</td></tr>
+      <tr><td>Produto 2</td><td>Loja B</td><td>São Paulo</td><td>Zona Leste</td></tr>
+    </tbody>
+  </table>
 </body>
 </html>
