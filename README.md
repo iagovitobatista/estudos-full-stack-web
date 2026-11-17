@@ -54,7 +54,7 @@ estudos-full-stack-web/
 │   ├── imagens/ (2 imagens de estudo)
 │   └── videos/  (3 vídeos de estudo)
 ├── projeto-2/
-│   └── css3/ (14 páginas de exercício, CSS e README)
+│   └── css3/ (13 páginas de exercício, CSS e README)
 └── .gitignore
 ```
 
