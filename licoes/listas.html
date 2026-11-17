@@ -1,36 +1,32 @@
-<!--
-ul>unordered list( lista não ordenada)
-ol> Ordered list(lista ordenada)
-li> List item( item da lista)
--->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Listas HTML</title>
 </head>
 <body>
-    <ul>
-<li>veiculos</li>
-<li>honda</li>
-<li>fiat</li>
-    aqui é um subitem usando duas tags juntas <ul>
-        <li>carros fiat</li>
-        <li>carros fiat 2026</li>
-
-</ul>
-</li>
-
-    </ul>
-<h2>lista ordenada </h2>
-
-<ol type="I"> 
-    <!--nao é mais recomendado-->
-    <li>veiculos</li>
-<li>honda</li>
-<li>fiat</li>
-</ol>
-
+  <h1>Exercícios de listas</h1>
+  <!-- ul = lista não ordenada, ol = ordenada, li = item -->
+  <h2>Lista não ordenada</h2>
+  <ul>
+    <li>Veículos
+      <ul>
+        <li>Honda</li>
+        <li>Fiat
+          <ul>
+            <li>Carros Fiat</li>
+            <li>Modelos Fiat 2026</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  <h2>Lista ordenada</h2>
+  <ol type="I">
+    <li>Honda</li>
+    <li>Fiat</li>
+    <li>Outros fabricantes</li>
+  </ol>
 </body>
 </html>
