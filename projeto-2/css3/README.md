@@ -22,7 +22,7 @@ projeto-2/
 └── css3/
     ├── css/
     │   └── estilo.css
-    ├── img/             # mídias da aula ainda pendentes de envio ao GitHub
+    ├── img/             # 17 imagens de apoio publicadas
     ├── index.html
     ├── produtos.html
     ├── contato.html
@@ -35,7 +35,7 @@ projeto-2/
 
 Abra um dos arquivos `.html` diretamente no navegador, ou use o **Live Server** no VS Code. Os arquivos que usam imagens fazem referência ao diretório relativo `img/`, que precisa conter as imagens da aula.
 
-**Importante:** o material original do ZIP incluiu 17 imagens e arquivos de estudo do curso. As imagens grandes **ainda não foram enviadas ao repositório pelo assistente**; por isso algumas páginas podem aparecer sem elementos visuais até que a pasta `img/` seja adicionada ao GitHub.
+**Mídias publicadas:** as 17 imagens dos exercícios já estão disponíveis em [`img/`](img/). Foram conferidos os nomes das imagens referenciadas nas páginas HTML, inclusive o banner `Banner.png` (B maiúsculo), e corrigidos os três caminhos que utilizavam `banner.png`. O arquivo `img/img` de 1 byte é apenas um marcador de pasta, não uma imagem. A exibição final ainda deve ser conferida no navegador.
 
 ## Melhorias nesta revisão
 
